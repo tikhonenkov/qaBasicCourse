@@ -5,8 +5,8 @@ import java.util.Locale;
 public class LoggerController {
 
     private LoggerSaver loggerSaver = new LoggerSaver();
-    private LoggerFilter loggerFilter;
-    private LoggerDecorator loggerDecorator;
+    private LoggerFilter loggerFilter = new LoggerFilter();
+    private LoggerDecorator loggerDecorator = new LoggerDecorator();
 
     /**
      *
