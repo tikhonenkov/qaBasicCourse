@@ -1,6 +1,6 @@
 package com.db.edu;
 
-import com.db.edu.logger.LoggerController;
+import com.db.edu.logger.api.LoggerController;
 import org.junit.Test;
 
 public class LoggerControllerTest {
